@@ -10,9 +10,9 @@ npm install
 
 2. Run script with options
 
-- -s path/to/swagger/json
-- -p path/to/save/postman/collection
-- --https Use HTTPS in URL
+- `-s` path/to/swagger/json
+- `-p` path/to/save/postman/collection
+- `--https` Use HTTPS in URL
 ```
 node stp.js -s ~/sample_swagger.json -p ~/sample-postman.json --https
 ```
