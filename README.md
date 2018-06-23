@@ -1,5 +1,5 @@
 # Swagger-to-Postman Converter
-This nodejs app accepts a valid Swagger 2.0 spec and converts it to a Postman collection for importing into Postman. In particular, it generates sample request bodies for all POST and PUT requests.
+This nodejs app accepts a valid Swagger 2.0 JSON spec and converts it to a Postman collection for importing into Postman. In particular, it generates sample request bodies for all POST and PUT requests.
 
 ## Using the Converter
 
@@ -14,5 +14,5 @@ npm install
 - `-p` path/to/save/postman/collection
 - `--https` Use HTTPS in URL
 ```
-node stp.js -s ~/sample_swagger.json -p ~/sample-postman.json --https
+node stp.js -s ~/sample-swagger.json -p ~/sample-postman.json --https
 ```
